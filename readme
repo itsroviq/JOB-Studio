@@ -1,0 +1,54 @@
+# 🐱 小猫 JOB READY v4.0 — Career Studio
+
+Aplikasi web **offline-first** berbasis *single-file HTML* untuk latihan mandiri menghadapi berbagai tahapan seleksi kerja—mulai dari psikotes, tes konsentrasi, tes praktik administrasi/Excel, hingga simulasi wawancara dan pelacakan lamaran kerja.
+
+---
+
+## ✨ Fitur Utama
+
+### 1. 🧠 Modul Psikotes & Kognitif
+* **6 Kategori Dasar:** Numerik, Verbal, Logika, Figural, Ketelitian, dan Situasional (SJT) dengan bank soal acak dan pembahasan.
+* **Mode Latihan Fleksibel:** *Practice* (tanpa batas waktu), *Timed* (60 detik/soal), dan *Exam Simulation* (campuran 20 soal dalam 10 menit).
+* **Tes Lanjutan (v4.0):** Latihan pola visual (*CFIT-style*), kemampuan campuran (*IST-style*), penalaran spasial, memori kerja, *coding-symbol*, dan interpretasi data.
+* **Smart Remedial:** Otomatis menyimpan soal yang dijawab salah atau terlewat agar dapat diulang kembali.
+
+### 2. 🎯 Tes Konsentrasi, Gambar & Memori
+* **Kraepelin / Pauli Practice:** Latihan penjumlahan berulang secara vertikal dengan pilihan durasi (60 detik, 90 detik, 3 menit) dan evaluasi akurasi per kolom.
+* **Drawing Test (Wartegg, BAUM, DAP, HTP):** Kanvas menggambar interaktif yang dilengkapi fitur *Undo/Redo*, pilihan warna, ketebalan kuas, penghapus, serta ekspor hasil gambar ke format **PNG**.
+* **Audio Memory Test:** Simulasi instruksi lisan cepat dan tes memori deret angka menggunakan fitur *Speech Synthesis* bawaan browser.
+
+### 3. 💼 Simulasi Wawancara & Keterampilan Kerja
+* **Interview Simulation:** Latihan wawancara dalam Bahasa Indonesia dan Bahasa Inggris lengkap dengan panduan metode **STAR** (*Situation, Task, Action, Result*) dan evaluasi struktur jawaban.
+* **Jalur Karier Spesifik:** *Administration & Data Entry*, *HR & Payroll*, *Cashier & Store Crew*, *F&B Crew & Waiter*, *Warehouse & Inventory*, *Production Operator*, *Housekeeping*, dan *General Support*.
+* **Excel Test & Excel Praktik:** Kuis fungsi spreadsheet serta simulasi mengetik rumus Excel secara langsung (`SUM`, `AVERAGE`, `COUNTIF`, `IF`, `VLOOKUP`/`XLOOKUP`).
+* **Typing Test:** Mengukur kecepatan mengetik (WPM) dan akurasi berdasarkan teks skenario tiap jalur karier.
+* **English for Workplace & Workplace Judgment:** Latihan kosakata kerja dasar dan pengambilan keputusan profesional.
+
+### 4. 📊 Manajemen Karier & Pelacakan Progres
+* **Career Readiness:** Indikator persentase kesiapan kerja gabungan dari skor latihan dan keaktifan melamar.
+* **Job Application Tracker:** Mencatat dan memantau status lamaran kerja (*Dikirim*, *Psikotes*, *Interview*, *Offering*, *Ditolak*).
+* **Daily Challenge & Achievement:** Tantangan harian otomatis dan lencana pencapaian.
+* **Analytics & Laporan:** Grafik tren skor latihan, perbandingan performa sesi, dan rekomendasi area yang perlu ditingkatkan.
+* **Recruitment Journey, CV Toolkit & Study Planner:** Checklist persiapan seleksi, template jawaban wawancara siap pakai, dan jadwal belajar mingguan.
+* **Backup & Restore:** Ekspor dan impor seluruh progres latihan dalam format **JSON**.
+
+---
+
+## 🚀 Cara Menjalankan & Hosting
+
+1. **Akses Online (GitHub Pages):** Buka tautan GitHub Pages dari repository ini melalui browser di PC maupun smartphone.
+2. **Jalankan Secara Lokal (Offline):** Unduh file `index.html`, lalu klik dua kali untuk membukanya langsung di browser tanpa memerlukan koneksi internet, server, atau instalasi tambahan.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* **HTML5** (Struktur aplikasi *single-page*)
+* **CSS3** (Desain responsif *mobile-friendly*, *CSS Grid/Flexbox*, tema *pastel violet-pink*)
+* **Vanilla JavaScript (ES6+)** (Logika kuis dinamis, SVG Analytics, Canvas API, Web Speech API, dan *Local Storage* untuk penyimpanan data offline)
+
+---
+
+## ⚠️ Catatan & Batasan
+
+> **JOB READY** adalah alat bantu latihan mandiri untuk persiapan seleksi kerja. Seluruh soal, skor, dan simulasi di dalam aplikasi ini bersifat edukatif—bukan instrumen tes psikologi resmi, bukan alat diagnosis klinis, dan bukan jaminan kelulusan rekrutmen perusahaan.
