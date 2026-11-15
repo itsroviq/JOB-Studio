@@ -1,54 +1,109 @@
-# 🐱 小猫 JOB READY v4.0 — Career Studio
+# 🐱 小猫 JOB READY — Career Preparation Studio
 
-Aplikasi web **offline-first** berbasis *single-file HTML* untuk latihan mandiri menghadapi berbagai tahapan seleksi kerja—mulai dari psikotes, tes konsentrasi, tes praktik administrasi/Excel, hingga simulasi wawancara dan pelacakan lamaran kerja.
+🚧 **Status: In Development**
 
----
+**小猫 JOB READY (Xiao Mao Job Ready)** adalah aplikasi latihan mandiri berbasis web yang dirancang untuk membantu pengguna mempersiapkan diri menghadapi proses rekrutmen dan seleksi kerja.
+
+Aplikasi ini menggabungkan latihan psikotes, simulasi situasi kerja, persiapan wawancara, serta berbagai latihan keterampilan dasar yang relevan dengan dunia kerja dalam satu platform.
+
+Proyek ini masih dalam tahap pengembangan. Fitur, materi, tampilan, dan sistem penilaian dapat berubah seiring proses penyempurnaan.
 
 ## ✨ Fitur Utama
 
-### 1. 🧠 Modul Psikotes & Kognitif
-* **6 Kategori Dasar:** Numerik, Verbal, Logika, Figural, Ketelitian, dan Situasional (SJT) dengan bank soal acak dan pembahasan.
-* **Mode Latihan Fleksibel:** *Practice* (tanpa batas waktu), *Timed* (60 detik/soal), dan *Exam Simulation* (campuran 20 soal dalam 10 menit).
-* **Tes Lanjutan (v4.0):** Latihan pola visual (*CFIT-style*), kemampuan campuran (*IST-style*), penalaran spasial, memori kerja, *coding-symbol*, dan interpretasi data.
-* **Smart Remedial:** Otomatis menyimpan soal yang dijawab salah atau terlewat agar dapat diulang kembali.
+### 🧠 Psychometric Practice
+- Latihan numerik dan verbal.
+- Latihan penalaran dan kemampuan dasar.
+- Bank soal latihan dan pembahasan.
+- Pencatatan hasil latihan.
 
-### 2. 🎯 Tes Konsentrasi, Gambar & Memori
-* **Kraepelin / Pauli Practice:** Latihan penjumlahan berulang secara vertikal dengan pilihan durasi (60 detik, 90 detik, 3 menit) dan evaluasi akurasi per kolom.
-* **Drawing Test (Wartegg, BAUM, DAP, HTP):** Kanvas menggambar interaktif yang dilengkapi fitur *Undo/Redo*, pilihan warna, ketebalan kuas, penghapus, serta ekspor hasil gambar ke format **PNG**.
-* **Audio Memory Test:** Simulasi instruksi lisan cepat dan tes memori deret angka menggunakan fitur *Speech Synthesis* bawaan browser.
+### 💼 Career Simulation
+- Simulasi situasi kerja.
+- Latihan berdasarkan jalur pekerjaan.
+- Persiapan menghadapi situasi di lingkungan kerja.
 
-### 3. 💼 Simulasi Wawancara & Keterampilan Kerja
-* **Interview Simulation:** Latihan wawancara dalam Bahasa Indonesia dan Bahasa Inggris lengkap dengan panduan metode **STAR** (*Situation, Task, Action, Result*) dan evaluasi struktur jawaban.
-* **Jalur Karier Spesifik:** *Administration & Data Entry*, *HR & Payroll*, *Cashier & Store Crew*, *F&B Crew & Waiter*, *Warehouse & Inventory*, *Production Operator*, *Housekeeping*, dan *General Support*.
-* **Excel Test & Excel Praktik:** Kuis fungsi spreadsheet serta simulasi mengetik rumus Excel secara langsung (`SUM`, `AVERAGE`, `COUNTIF`, `IF`, `VLOOKUP`/`XLOOKUP`).
-* **Typing Test:** Mengukur kecepatan mengetik (WPM) dan akurasi berdasarkan teks skenario tiap jalur karier.
-* **English for Workplace & Workplace Judgment:** Latihan kosakata kerja dasar dan pengambilan keputusan profesional.
+### 🎤 Interview Preparation
+- Latihan pertanyaan wawancara.
+- Persiapan wawancara berdasarkan bidang pekerjaan.
+- Evaluasi jawaban menggunakan indikator sederhana.
 
-### 4. 📊 Manajemen Karier & Pelacakan Progres
-* **Career Readiness:** Indikator persentase kesiapan kerja gabungan dari skor latihan dan keaktifan melamar.
-* **Job Application Tracker:** Mencatat dan memantau status lamaran kerja (*Dikirim*, *Psikotes*, *Interview*, *Offering*, *Ditolak*).
-* **Daily Challenge & Achievement:** Tantangan harian otomatis dan lencana pencapaian.
-* **Analytics & Laporan:** Grafik tren skor latihan, perbandingan performa sesi, dan rekomendasi area yang perlu ditingkatkan.
-* **Recruitment Journey, CV Toolkit & Study Planner:** Checklist persiapan seleksi, template jawaban wawancara siap pakai, dan jadwal belajar mingguan.
-* **Backup & Restore:** Ekspor dan impor seluruh progres latihan dalam format **JSON**.
+### 📊 Workplace Skills
+- Latihan Microsoft Excel.
+- English for Workplace.
+- Typing practice.
+- Latihan keterampilan dasar yang mendukung pekerjaan.
+
+### 📈 Progress & Dashboard
+- Dashboard perkembangan latihan.
+- Riwayat hasil pengerjaan.
+- Pemantauan progres belajar.
+- Roadmap persiapan karier.
+
+### 💾 Data Management
+- Penyimpanan progres menggunakan browser.
+- Ekspor dan impor backup data.
+- Tidak memerlukan akun untuk menggunakan fitur utama.
+
+## 🎯 Tujuan Proyek
+
+Proyek ini dikembangkan sebagai sarana belajar dan latihan mandiri agar pengguna dapat:
+
+- Meningkatkan kesiapan menghadapi proses seleksi kerja.
+- Melatih kemampuan numerik, verbal, dan penalaran.
+- Berlatih menjawab pertanyaan wawancara.
+- Mengembangkan keterampilan dasar untuk lingkungan kerja.
+- Memantau perkembangan latihan secara mandiri.
+
+## 🛠️ Teknologi
+
+- HTML5
+- CSS3
+- JavaScript
+- Browser Local Storage
+- SVG dan Canvas untuk elemen visual tertentu
+
+## 🚀 Cara Menggunakan
+
+1. Buka halaman aplikasi melalui GitHub Pages jika tersedia.
+2. Pilih menu latihan yang ingin digunakan.
+3. Kerjakan latihan sesuai instruksi.
+4. Periksa hasil dan pembahasan.
+5. Pantau perkembangan melalui dashboard.
+6. Ekspor backup secara berkala untuk menjaga data progres.
+
+Aplikasi dapat dijalankan melalui browser modern tanpa instalasi khusus.
+
+## ⚠️ Catatan dan Batasan
+
+- Proyek ini merupakan alat latihan mandiri, bukan platform rekrutmen resmi.
+- Skor psikotes bukan prediksi kelulusan seleksi kerja.
+- Aplikasi bukan alat asesmen psikologi profesional.
+- Evaluasi wawancara menggunakan indikator sederhana dan tidak dapat menggantikan penilaian manusia.
+- Data progres disimpan pada browser yang digunakan. Menghapus data browser dapat menyebabkan progres hilang.
+- Hasil latihan tidak menjamin keberhasilan dalam proses rekrutmen.
+
+## 🗺️ Development Roadmap
+
+- [x] Pengembangan dashboard utama.
+- [x] Penyusunan beberapa kategori latihan.
+- [x] Pengembangan simulasi dan latihan kerja.
+- [x] Sistem pencatatan progres.
+- [x] Fitur backup dan restore.
+- [ ] Penyempurnaan bank soal dan tingkat kesulitan.
+- [ ] Pengujian seluruh fitur dan alur aplikasi.
+- [ ] Penyempurnaan tampilan mobile.
+- [ ] Optimalisasi sistem penyimpanan data.
+- [ ] Penyempurnaan dokumentasi pengguna.
+
+## 📌 Project Status
+
+**Active Development**
+
+Aplikasi masih terus dikembangkan. Beberapa fitur mungkin belum optimal dan dapat mengalami perubahan pada pembaruan berikutnya.
+
+## 👨‍💻 Developer
+
+Dikembangkan secara mandiri sebagai proyek pembelajaran dan pengembangan keterampilan web.
 
 ---
 
-## 🚀 Cara Menjalankan & Hosting
-
-1. **Akses Online (GitHub Pages):** Buka tautan GitHub Pages dari repository ini melalui browser di PC maupun smartphone.
-2. **Jalankan Secara Lokal (Offline):** Unduh file `index.html`, lalu klik dua kali untuk membukanya langsung di browser tanpa memerlukan koneksi internet, server, atau instalasi tambahan.
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-* **HTML5** (Struktur aplikasi *single-page*)
-* **CSS3** (Desain responsif *mobile-friendly*, *CSS Grid/Flexbox*, tema *pastel violet-pink*)
-* **Vanilla JavaScript (ES6+)** (Logika kuis dinamis, SVG Analytics, Canvas API, Web Speech API, dan *Local Storage* untuk penyimpanan data offline)
-
----
-
-## ⚠️ Catatan & Batasan
-
-> **JOB READY** adalah alat bantu latihan mandiri untuk persiapan seleksi kerja. Seluruh soal, skor, dan simulasi di dalam aplikasi ini bersifat edukatif—bukan instrumen tes psikologi resmi, bukan alat diagnosis klinis, dan bukan jaminan kelulusan rekrutmen perusahaan.
+*Built with curiosity, continuous learning, and a little cat energy. 🐱*
